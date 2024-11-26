@@ -1,0 +1,122 @@
+
+/* ************VARIABLES******** */
+
+:root{
+  
+  --couleur-noire: black;
+  --couleur-blache: white;
+  --couleur-vert-jaunatre: greenyellow ;
+  --couleur-rouge: red;
+  --couleur-jaune: yellow;
+  --couleur-rose: #fb00c4;
+  --couleur-bleu-ciel: aqua;
+  --couleur-orange: orange;
+  --couleur-vert: green;
+  
+}
+
+
+
+
+
+
+
+
+/* **********ANIMATIONS********* */
+@-webkit-keyframes animation {
+  0% {
+    transform: translateY(0);
+    color: var(--couleur-orange);
+  }
+  
+  20% {
+    transform: rotate(30deg);
+    color: var(--couleur-rouge);
+  }
+  
+  40% {
+    transform: translateX(30px);
+    color: var(--couleur-jaune);
+  }
+  
+  60% {
+    transform: rotate(-30deg);
+    color: var(--couleur-blache);
+  }
+  
+  80% {
+    transform: translateY(7px);
+    color: var(--couleur-bleu-ciel);
+  }
+  
+  100% {
+    transform: translateY(0);
+    transform: translateX(0);
+    color: var(--couleur-rose);
+  }
+}
+
+
+
+@-webkit-keyframes messageBienvenue {
+  0% {
+    color: #52ff26;
+  }
+  
+  15% {
+    color: white;
+  }
+  
+  30% {
+    color: #fcff17;
+  }
+  
+  45% {
+    color: orange;
+  }
+  
+  60%{
+    color: red;
+  }
+  
+  75% {
+    color: #00daee;
+  }
+  
+  99% {
+    color: #00FF00
+  }
+}
+
+
+@-webkit-keyframes borderColor {
+  0% {
+    border: dotted #00daee;
+    /* Rose vif */
+  }
+  
+  20% {
+    border: dotted  #fcff17;
+    /* Magenta */
+  }
+  
+  40% {
+    border: dotted #00FF00
+      /* Rose pourpre */
+  }
+  
+  60% {
+    border: dotted orange;
+    /* Indigo */
+  }
+  
+  80% {
+    border: dotted  white;
+    /* Rose vif */
+  }
+  
+  100% {
+    border: dotted  #52ff26;
+    /* Violet orchidée */
+  }
+}
