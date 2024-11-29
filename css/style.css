@@ -91,7 +91,10 @@ header {
 
 #barre-recherche::placeholder{
   font-weight: bold;
+  font-size: 25px;
+  color: red;
   text-transform: uppercase;
+  letter-spacing: 4;
 }
 
 img {
