@@ -91,7 +91,7 @@ header {
 
 #barre-recherche::placeholder{
   font-weight: bold;
-  font-size: 25px;
+  font-size: 30px;
   color: red;
   text-transform: uppercase;
   letter-spacing: 4;
